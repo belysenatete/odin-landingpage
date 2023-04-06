@@ -71,15 +71,15 @@
       border-radius: 5px;
     }
     #box1 {
-      background-image: url(/img/lawyer\ 1.jpg);
+      background-image: url(img/lawyer\ 1.jpg);
       background-size: cover;
     }
     #box2 {
-      background-image: url(/img/lawyer\ 2.jpg);
+      background-image: url(img/lawyer\ 2.jpg);
       background-size: cover;
     }
     #box3 {
-      background-image: url(/img/lawyer\ 3.jpg);
+      background-image: url(img/lawyer\ 3.jpg);
       background-size: cover;
     }
     .lawyer-name {
