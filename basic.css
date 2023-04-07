@@ -22,6 +22,7 @@
       font-size: 18px;
       color:#e5e7eb;
       margin: 10px;
+      cursor: pointer;
     }
     
     h1 {
@@ -53,15 +54,19 @@
       padding: 10px;
       border-radius: 30px;
       margin-top: 20px;
+      cursor: pointer;
     }
     /**section 2**/
     h3 {
       text-align: center;
+      margin-top: 20px;
+      font-size: 30px;
     }
     .section2 {
       display: flex;
       justify-content: center;
       margin-top: 50px;
+      padding-bottom: -150px;
     }
     .box {
       width: 350px;
@@ -70,27 +75,88 @@
       margin-right: 30px;
       border-radius: 5px;
     }
+    .box2 {
+      width: 350px;
+      margin-right: 30px
+    }
     #box1 {
-      background-image: url(/img/lawyer\ 1.jpg);
+      background-image: url(img/lawyer\ 1.jpg);
       background-size: cover;
     }
     #box2 {
-      background-image: url(/img/lawyer\ 2.jpg);
+      background-image: url(img/lawyer\ 2.jpg);
       background-size: cover;
     }
     #box3 {
-      background-image: url(/img/lawyer\ 3.jpg);
+      background-image: url(img/lawyer\ 3.jpg);
       background-size: cover;
     }
     .lawyer-name {
       display: flex;
       justify-content: center;
-      margin-top: -150px;
+      padding-top: 50px;
+      padding-bottom: 150px;
+    }
+    h4 {
+            font-size: 20px;
     }
     .description {
       margin-top: 20px;
+      font-size: 20px;
     }
     a {
       display: inline-block;
+      padding-top: 20px;
+      text-decoration: none;
+      color: #3882f6;
+      font-size: 20px;
     }
+    /**section 3**/
+    .section3 {
+      padding:100px 200px ;
+      background-color: #e5e7eb;
+      
+    }
+    .quote {
+      font-size: 30px;
+      font-style: italic;
+      color: #1f2937;
+      font-weight: lighter;
+      }
+      h5 {
+        padding-left: 800px;
+        font-size: 15px;
+
+      }
+      /**section 4**/
+      .section4 {
+        padding: 50px 300px;
+      }
+      .call-to-action {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 50px;
+        background-color: #3882f6;
+        width: 700px;
+        border-radius: 10px;
+        }
+      .text {
+        font-size: 20px;
+        color: white;
+      }
+      .call-button {
+        border: 1px solid white;
+        border-radius: 5px;
+        color: white;
+        cursor: pointer;
+        }
+        /**footer**/
+        .footer {
+          padding: 15px;
+          background-color: #1f2937;
+        }
+        .copyright {
+          text-align: center;
+          color: white;
+        }
     
